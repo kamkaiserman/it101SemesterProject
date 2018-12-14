@@ -1,0 +1,14 @@
+nohup: ignoring input
+[0mGET / [32m200 [0m9.105 ms - 3089[0m
+[0mGET / [32m200 [0m1.859 ms - 3089[0m
+[0mGET / [32m200 [0m1.355 ms - 3089[0m
+[0mGET /stylesheets/main.css [32m200 [0m2.037 ms - 3854[0m
+[0mGET /fonts/nevis.ttf [32m200 [0m1.993 ms - 12228[0m
+[0mGET /javascripts/scripts.js [32m200 [0m0.337 ms - 172[0m
+[0mGET /images/cropped-header4.png [32m200 [0m1.483 ms - 37986[0m
+[0mGET /fonts/nevis.ttf [36m304 [0m1.406 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m330.001 ms - 1282[0m
+[0mGET /login [33m404 [0m39.745 ms - 1282[0m
+[0mGET /stylesheets/style.css [33m404 [0m50.195 ms - 1282[0m
+[0mGET /favicon.ico [33m404 [0m18.484 ms - 1282[0m
+[0mGET / [32m200 [0m1.456 ms - 3089[0m

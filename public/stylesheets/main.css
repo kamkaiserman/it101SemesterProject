@@ -1,0 +1,264 @@
+@font-face {
+	font-family: nevis;
+	src: url(/fonts/nevis.ttf);
+}
+
+body,
+div,
+h1,
+form,
+fieldset,
+input,
+textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+h1 {
+	text-align: center;
+	font-family: nevis;
+	text-align: left;
+	padding-top: 30px;
+	color: DodgerBlue;
+	font-size: 50px;
+}
+
+body {
+	background-size: cover;
+	background-position: right;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+li a {
+	font-family: nevis;
+	display: block;
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+li a:hover:not(.active) {
+	background-color: white;
+	color: DodgerBlue;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+	background-color: #111;
+}
+
+img:hover {
+	opacity: 0.3;
+	transition: .3s ease;
+	box-shadow: 0px 0px 30px #333;
+	transition-duration: 0.3s;
+}
+
+/*//////////////////////////////SIDE NAVIGATION////////////////////////////////*/
+
+.topnav {
+	display: block;
+	top: 0;
+	height: 0px;
+	width: 100%;
+	z-index: 1;
+	background-color: #111;
+	overflow-x: hidden;
+	text-align: center;
+	transition: 0.3s;
+	overflow: hidden;
+}
+
+.topnav a {
+	font-family: nevis;
+	width: 100%;
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+}
+
+.topnav a:hover {
+	color: DodgerBlue;
+}
+
+.topnav .closebtn {
+	text-align: center;
+	font-size: 36px;
+	transition: 0.3s;
+}
+
+#main {
+	padding: 16px;
+	transition: 0.3s;
+}
+
+@media screen and (max-height: 450px) {
+	.topnav {
+		padding-top: 15px;
+	}
+	.topnav a {
+		font-size: 18px;
+	}
+}
+
+#navButton {
+	text-align: center;
+	width: 100%;
+	float: none;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	padding: 20px;
+	transition: 0.3s;
+}
+
+#navButton:hover {
+	color: DodgerBlue;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+#mainHeader {
+	text-align: center;
+	max-width: 100%;
+	max-height: 200px;
+	background-color: white;
+	z-index: 10;
+	opacity: 1;
+
+}
+
+#mainHeader:hover {
+	opacity: 1;
+	box-shadow: 0px 0px 0px white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	display: -ms-flexbox;
+	/* IE10 */
+	display: flex;
+	-ms-flex-wrap: wrap;
+	/* IE10 */
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+	-ms-flex: 25%;
+	/* IE10 */
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+	.column {
+		-ms-flex: 50%;
+		flex: 50%;
+		max-width: 50%;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+	.column {
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+
+#boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#box {
+	margin: 10px;
+	padding: 10px;
+	font-size: 16px;
+	float: left;
+}
+
+#box>p {
+	font-size: 18px;
+	text-align: center;
+}
+
+
+#button1 {
+	background-image: url('https://theeyeofkam.files.wordpress.com/2016/05/webready210.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#button2 {
+	background-image: url('https://theeyeofkam.files.wordpress.com/2016/05/simweekthumbnail1.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#button3 {
+	background-image: url('https://theeyeofkam.files.wordpress.com/2018/01/foxhillsthumbnail.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#spacer {
+	height: 150px;
+	width: 100%;
+}
+
+#post {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0% 30%;
+	font-size: 24px;
+	color: #231f20;
+	line-height: 1.6;
+}
+
+#footer {
+	width: 100%;
+	padding: 50px;
+	text-align: center;
+	font-family: nevis;
+	background-color: DodgerBlue;
+	color: white;
+	left: 0;
+	bottom: 0;
+}
